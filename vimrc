@@ -21,10 +21,19 @@ nnoremap ; :
 map <C-n> :NERDTreeToggle<CR>
 let g:user_emmet_leader_key='<C-E>'
 set laststatus=2
+set background=dark
 let g:airline_powerline_fonts=1
 let g:airline_theme='bubblegum'
+"let g:airline_theme='one'
 "colorscheme koehler
-colorscheme evolution
+"colorscheme evolution
+"colorscheme molokai
+"colorscheme one
+"colorscheme palenight
+"colorscheme jellybeans 
+colorscheme sonokai
+"colorscheme PaperColor 
+"colorscheme hybrid 
 let g:JSHintHighlightErrorLine=0
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -95,3 +104,4 @@ let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
 
 " Note on coc-tslint-plugin: install with :CocInstall coc-tsserver coc-tslint-plugin
+" Togge inlay hint in C/C++ files from coc-clangd with :CocCommand document.toggleInlayHint
